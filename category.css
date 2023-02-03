@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.categories ol {
+  align-self: center;
+  margin-top: 60px;
+  margin-left: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  grid-gap: 15px;
+}
